@@ -6,10 +6,10 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Eugene Mathew   
+name: Eugene Mathew
 title: Mainframe Developer
 email: eugenemathew1@gmail.com
-# email_title: 
+# email_title:
 phone: 9710083533
 # phone_title: Phone (Phone title override)
 website: https://eugenemathew.github.io
@@ -20,7 +20,7 @@ darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  eugenemathew
+github_username: eugenemathew
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -52,67 +52,34 @@ linkedin_username: Eugene Mathew
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/eu.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I am Eugene Mathew, an enthusiastic mainframe developer who is committed to the creation of reliable and solid solutions, regardless of the technology evolution.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Accenture
+        sub_title: Application Development Analyst
+        caption: Feb 2022 - present
+        link: https://www.accenture.com/in-en
         quote: >
-          Short description of the company (optional)
+          Accenture is a top-tier global professional services company, specializing in strategy, consulting, digital, technology, and operations, helping clients worldwide navigate and thrive in the digital era.
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          I perform tasks like data analysis, market research, strategy development, and client engagement support in mainframe technology.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: B.S.Abdur Rahman Crescent Institute of Science & Technology
+        sub_title: B.Tech-Mechanical
+        caption: 2017 - 2021
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+        description: | # this will include new lines to allow paragraphs
+          Designing, analyzing, and optimizing mechanical systems for real-world applications and innovations.
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
@@ -124,17 +91,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
